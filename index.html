@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zkouska JavaScriptu</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron text-center bg-danger text-white" id="hlavni">
+        <h1 class="display-3" onmouseover="this.innerHTML = 'About Making Web'">
+          My Simple Website
+        </h1>
+        <p class="lead">Click on titles for informations</p>
+      </div>
+      <img
+        src="Photos/paris-day.jpeg"
+        class="rounded"
+        id="image"
+        alt="background"
+      />
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="font-weight-bold" onclick="about('HTML')">HTML</h2>
+            <hr />
+            <p id="text1">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Temporibus nostrum amet explicabo velit delectus, vitae libero
+              labore perspiciatis at, illo, nemo tempore alias consequuntur quae
+              error tempora quisquam dolores dolore?Iusto eius quaerat, fuga
+              exercitationem est sapiente deleniti numquam et accusantium
+              laudantium quod voluptatem cupiditate nemo ad eaque nihil soluta
+              ex eligendi laboriosam, officia officiis dolorem atque. Aliquid,
+              doloribus nisi!
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="font-weight-bold" onclick="about('CSS')">CSS</h2>
+            <hr />
+            <p id="text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+              ratione consectetur, sed, voluptatibus beatae voluptatum labore,
+              perferendis placeat incidunt delectus assumenda neque. Expedita,
+              repudiandae error placeat ad et totam delectus?Blanditiis dicta
+              odio consectetur iusto temporibus, commodi nobis in, omnis tenetur
+              exercitationem rerum, provident dignissimos mollitia veniam
+              repellendus vitae maxime suscipit? Dignissimos et beatae repellat
+              voluptatum est ducimus consequuntur voluptates.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="font-weight-bold" onclick="about('B4')">B4</h2>
+            <hr />
+            <p id="text3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              asperiores mollitia quaerat maiores corporis aut, sunt delectus
+              molestiae qui illum laborum voluptates quam explicabo quasi, nulla
+              beatae laudantium harum consectetur.Velit fuga neque quia
+              consequuntur, quidem nostrum tenetur voluptatibus rem deserunt.
+              Enim repellendus optio magni animi necessitatibus! Qui praesentium
+              ex laborum nulla? Vel, illum! Assumenda impedit molestias quae
+              facilis nobis?
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="font-weight-bold" onclick="about('JavaScript')">JS</h2>
+            <hr />
+            <p id="text4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur, libero minus iusto dicta nobis officiis rem animi
+              labore enim nam quod itaque officia consequuntur quis nostrum vero
+              laboriosam. Dolore, autem.Deleniti totam, repellat deserunt est
+              ullam aliquid debitis accusantium, corporis quod molestias neque.
+              Placeat debitis numquam molestiae inventore similique voluptates
+              delectus laudantium sapiente suscipit voluptatem, tenetur porro
+              praesentium sit labore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer bg-secondary text-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3 text-center">&copy Vojtěch Binar</div>
+          <div class="col-3 text-center">
+            <button onclick="changeBG()" id="button">Change Image</button>
+          </div>
+          <div class="col-3 text-center">
+            <button onclick="changeTheme()">Change Theme</button>
+          </div>
+          <div class="col-3 text-right">Year: 2020</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
